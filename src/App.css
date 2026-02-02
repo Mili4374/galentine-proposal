@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  /* Pink Gradient Background */
+  background: linear-gradient(135deg, #fce4ec 0%, #f8bbd0 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+  font-family: 'Arial', sans-serif;
+}
+
+.galentine-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.photo-gallery {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+}
+
+.gallery-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 15px;
+  border: 4px solid white;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.gallery-img:hover {
+  transform: scale(1.1);
+}
+
+.success-gif {
+  width: 280px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.text {
+  color: #d81b60;
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.success-text {
+  animation: bounce 0.5s infinite alternate;
+}
+
+@keyframes bounce {
+  from { transform: translateY(0); }
+  to { transform: translateY(-10px); }
+}
+
+.button-group {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+button {
+  padding: 15px 35px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.yes-button {
+  background-color: #43a047;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.no-button {
+  background-color: #e53935;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
