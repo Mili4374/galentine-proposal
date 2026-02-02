@@ -41,9 +41,9 @@ function App() {
         <div className="question-screen">
           <div className="photo-gallery">
             {/* Added a leading slash to help Vite find these in the public folder */}
-            <img src="/bestie1.jpg" alt="Bestie 1" className="gallery-img" />
-            <img src="/bestie2.jpg" alt="Bestie 2" className="gallery-img" />
-            <img src="/bestie3.jpg" alt="Bestie 3" className="gallery-img" />
+            <img src="./bestie1.jpg" alt="Bestie 1" className="gallery-img" />
+            <img src="./bestie2.jpg" alt="Bestie 2" className="gallery-img" />
+            <img src="./bestie3.jpg" alt="Bestie 3" className="gallery-img" />
           </div>
 
           <h1 className="text">Will you be my Galentine? ❤️</h1>
